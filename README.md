@@ -88,7 +88,7 @@ build out any helper methods if needed.
 #### Order
 
 - `Order __init__`
-  - Takes a cusomter (`Customer`), coffee (`Coffee`), and price (`int`)
+  - Takes a customer (`Customer`), coffee (`Coffee`), and price (`int`)
   - Adds the new order instance to the coffee's orders array and the customer's orders array
 - `Order property customer`
   - Returns the customer object for that order
@@ -102,7 +102,7 @@ build out any helper methods if needed.
 #### Coffee
 
 - `Coffee get_customers()`
-  - Returns a list of all customers who have ordered a this particular coffee.
+  - Returns a list of all customers who have ordered this particular coffee.
 
 #### Customer
 
